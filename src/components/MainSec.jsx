@@ -72,29 +72,60 @@ export default function MainSec(){
 {/* this is my service section */}
 
 
-
             <div className="my-service-sec">
                 <div className="text-center">
                     <div className="row">
                         <div className="col">
-                        1 of 3
+                            <p>My Services</p>
+                            <h2>Life Through Photos</h2>
+                            <button>All Services</button>
                         </div>
                         <div className="col">
-                        2 of 3 (wider)
+                            <img src="" alt="" />
+                            <h3>Photography</h3>
+                            <p>
+                                "Freezing time, capturing memories."
+                                "Your story, our art."
+                            </p>
+                            <a href="">Read More</a>
                         </div>
                         <div className="col">
-                        3 of 3
+                            <img src="" alt="" />
+                            <h3>Videography</h3>
+                            <p>
+                                "Bringing your vision to life, frame by frame."
+                                "Motion that speaks volumes."
+                            </p>
+                            <a href="">Read More</a>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                        1 of 3
+                            <img src="" alt="" />
+                            <h3>Editing</h3>
+                            <p>
+                                "Polishing perfection, pixel by pixel."
+                                "Crafting your masterpiece."
+                            </p>
+                            <a href="">Read More</a>
                         </div>
                         <div className="col">
-                        2 of 3 (wider)
+                            <img src="" alt="" />
+                            <h3>Branding</h3>
+                            <p>
+                                "Building your brand identity, one story at a time."
+                                "Your unique voice, amplified."
+                            </p>
+                            <a href="">Read More</a>
                         </div>
                         <div className="col">
-                        3 of 3
+                            <img src="" alt="" />
+                            <h3>Events</h3>
+                            <p>
+                                "Preserving your special moments, forever."
+                                "Capturing the essence of your event."
+                            </p>
+                            <a href="">Read More</a>
                         </div>
                     </div>
                 </div>

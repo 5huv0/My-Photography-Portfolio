@@ -193,8 +193,10 @@ body{
 }
 
 .my-service-sec{
+    padding: 20px;
+    margin-top: 80px;
     color: #FFF5DD;
-    background-color: aqua;
+    border: 1px solid #FFF5DD;
 }
 
 /* Main section work ends here */
