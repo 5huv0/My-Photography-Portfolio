@@ -36,10 +36,9 @@ export default function Navbar(){
                             <a className="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <span className="navbar-text">
-                        <a href="#" >Let's Work</a>
+                    <span>
+                        <a href="#" className="navbar-text">Let's Work</a>
                     </span>
-                   
                 </div>
             </div>
         </nav>
