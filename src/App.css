@@ -45,7 +45,9 @@ body{
 
 /* Navbar work ends here */
 
-/* Main section work starts here */
+
+
+/* Hero section work starts here */
 
 .main-div{
     background-image: url("./images/self-pic.jpg");
@@ -58,7 +60,6 @@ body{
     justify-items: center;
     padding: 13%;
     color: #FFF5DD;
-    margin-bottom: 30px;
     position: relative;
 }
 
@@ -106,5 +107,35 @@ body{
     padding: 10px;
     height: 35px;
 }
+
+/* Hero section work ends here */
+
+
+
+/* Main section work starts here */
+
+.achievements-sec{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    background-color: black;
+    color: #FFF5DD;
+    margin-bottom: 20px;
+    height: 277px;
+    width:100%;
+    border: 2px solid #FFF5DD;
+    box-sizing: border-box; 
+}
+
+
+.achi-head{
+    font-size: 25px;
+}
+
+.achi-des{
+    font-size: 10px;
+    text-align: center;
+}
+
 
 /* Main section work ends here */
