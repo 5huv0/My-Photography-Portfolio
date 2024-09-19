@@ -3,6 +3,11 @@ import React from "react";
 export default function MainSec(){
     return(
         <div className="main-section">
+
+
+{/* this is achievements section */}
+
+
             <div className="achievements-sec">
                 <div className="text-center">
                     <div className="row">
@@ -25,27 +30,34 @@ export default function MainSec(){
                             <p className="achi-head">Achievements</p>
                             <p className="achi-des">
                                 2019 Best photographer,
-                                2018 Youngest photographer of CPS &
-                                2024 Runners up of CPS photo award
+                                <br />
+                                2018 Youngest photographer of CPS
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
 
+
+{/* this is about me section  */}
+
+
             <div className="about-me-sec">
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col">
+                <div className="text-center">
+                    <div className="row">
+                        <div className="col">
                             <img src="./images/aboutSectionDot.png" alt="" className="about-sec-dot"/>
                             <img src="./images/self-pic1.jpg" alt="" className="about-sec-pic"/>
                         </div>
 
-                        <div class="col">
-                            <h4>About Shuvo</h4>
-                            <h3>Capturing Memorires Through Lenses</h3>
-                            <p>I'm Shuvo, a passionate photographer who finds joy in capturing the essence of life through my lens. I specialize in street and wildlife photography, where every moment tells a story. Photography isn't just a hobby for me—it's a way to express creativity and preserve fleeting moments.</p>
-                            <ul>
+                        <div className="col">
+                            <h4 className="about-h4">About Shuvo</h4>
+                            <h3 className="about-h3">Capturing Memorires Through Lenses</h3>
+                            <p className="about-p">Hi there!
+                                My name is Shuvo, and I'm a passionate photographer. I find immense joy in capturing the world around me through my lens. Street and wildlife photography are my particular areas of interest. There's something incredibly captivating about capturing candid moments in everyday life and the raw beauty of nature's creatures.
+                                I love the challenge of capturing the perfect shot, whether it's a fleeting expression on a stranger's face or a majestic animal in its natural habitat. Through my photography, I aim to share my unique perspective and inspire others to appreciate the beauty of the world.
+                            </p>
+                            <ul className="about-ul">
                                 <li>Photography --------- 50%</li>
                                 <li>Videogrphy --------- 20%</li>
                                 <li>Editing --------- 60%</li>
@@ -53,6 +65,15 @@ export default function MainSec(){
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+
+{/* this is my service section */}
+
+
+
+            <div className="my-service-sec">
             </div>
         </div>
     )
