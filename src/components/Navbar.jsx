@@ -37,8 +37,9 @@ export default function Navbar(){
                         </li>
                     </ul>
                     <span className="navbar-text">
-                        Let's Work
+                        <a href="#" >Let's Work</a>
                     </span>
+                   
                 </div>
             </div>
         </nav>

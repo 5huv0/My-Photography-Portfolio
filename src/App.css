@@ -1,3 +1,7 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 /* Navbar work starts here */
 
 .navbar{
@@ -6,15 +10,17 @@
 }
 
 .nav-logo{
-    height: 30px;
+    height: 35px;
     width: min-content;
     border-radius: 0%;
     margin-left: 70px;
+    padding-right: 30px;
 }
 
 .logo-line{
     height: 30px;
     width: min-content;
+    padding-right: 30px;
 }
 
 .nav-item{
@@ -25,8 +31,9 @@
     color: #FFF5DD;
 }
 
-.navbar-text{
-    margin-right: 70px;
+.navbar-text > a {
     color: #FFF5DD;
+    margin-right: 70px;
 }
+
 /* Navbar work ends here */
