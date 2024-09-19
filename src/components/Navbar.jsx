@@ -28,7 +28,7 @@ export default function Navbar(){
                     </li>
                 </ul>
                 <span className="navbar-text">
-                    Navbar text with an inline element
+                    Navbar text with an
                 </span>
             </div>
         </div>
