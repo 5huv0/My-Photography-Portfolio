@@ -114,16 +114,19 @@ body{
 
 /* Main section work starts here */
 
+.main-section{
+    margin-bottom: 20px;
+}
+
 .achievements-sec{
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     background-color: black;
     color: #FFF5DD;
-    margin-bottom: 20px;
     height: 277px;
     width:100%;
-    border: 2px solid #FFF5DD;
+    border: 1px solid #FFF5DD;
     box-sizing: border-box; 
 }
 
@@ -138,4 +141,27 @@ body{
 }
 
 
+.about-me-sec{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    color: #FFF5DD;
+    height: max-content;
+}
+
+.about-sec-dot{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    z-index: 0;
+}
+
+.about-sec-pic{
+    position: absolute;
+    height: 280px;
+    width: 250px;
+    z-index: 1;
+    left: 377px;
+    margin-top: 30px;
+}
 /* Main section work ends here */
