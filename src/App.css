@@ -46,22 +46,19 @@ body{
 /* Navbar work ends here */
 
 /* Main section work starts here */
-.main-sec{
+
+.main-div{
     background-image: url("./images/self-pic.jpg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
-}
-
-
-.main-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     padding: 13%;
-    /* background-color: rgb(81, 81, 81) ; */
     color: #FFF5DD;
+    margin-bottom: 30px;
 }
 
 .main-div > p, h1, h4, button {
@@ -83,7 +80,8 @@ body{
     text-align:center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 10px;
-    line-height: 1.8;
+    line-height: 2.0;
+    font-size: smaller;
 }
 
 .main-btn{
@@ -93,6 +91,10 @@ body{
 .main-btn:hover{
     background-color: #9C4A38;
     border: none;
+}
+
+.main-linkings{
+    background-color: aquamarine;
 }
 
 /* Main section work ends here */
