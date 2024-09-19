@@ -1,4 +1,32 @@
 /* Navbar work starts here */
 
+.navbar{
+    position: absolute;
+    background-color:rgb(81, 81, 81);
+}
 
+.nav-logo{
+    height: 30px;
+    width: min-content;
+    border-radius: 0%;
+    margin-left: 70px;
+}
+
+.logo-line{
+    height: 30px;
+    width: min-content;
+}
+
+.nav-item{
+    padding:0px 10px;
+}
+
+.nav-link{
+    color: #FFF5DD;
+}
+
+.navbar-text{
+    margin-right: 70px;
+    color: #FFF5DD;
+}
 /* Navbar work ends here */
