@@ -275,6 +275,40 @@ body{
     background-color: rgb(52, 49, 49);
 }
 
+.my-skill-sec p{
+    padding-top: 40px;
+    color: #9C4A38;
+}
+
+.my-skill-sec h2{
+    padding-bottom: 90px;
+}
+
+.year-sec-item{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 2px solid #FDE3A7;
+}
+
+.year-sec-item img{
+    padding-right: 35px;
+    height: 70px;
+    width: 100px;
+}
+
+.year-sec-item p {
+    padding-top: 20px;
+    padding-right: 100px;
+    color: #FFF5DD;
+}
+
+
+.year-sec-item-des{
+    font-size: 13px;
+    text-align: left;
+}
 
 
 /* Main section work ends here */
