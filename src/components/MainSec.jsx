@@ -73,15 +73,15 @@ export default function MainSec(){
 
 
             <div className="my-service-sec">
-                <div className="text-center">
+                <div className="container text-center">
                     <div className="row">
-                        <div className="col">
+                        <div className="col my-service">
                             <p>My Services</p>
-                            <h2>Life Through Photos</h2>
+                            <h3>Life Through Photos</h3>
                             <button>All Services</button>
                         </div>
-                        <div className="col">
-                            <img src="" alt="" />
+                        <div className="col my-service-div">
+                            <img src="./images/camera.png" alt="" className="my-service-pic"/>
                             <h3>Photography</h3>
                             <p>
                                 "Freezing time, capturing memories."
@@ -89,8 +89,8 @@ export default function MainSec(){
                             </p>
                             <a href="">Read More</a>
                         </div>
-                        <div className="col">
-                            <img src="" alt="" />
+                        <div className="col my-service-div">
+                            <img src="./images/videography.png" alt="" className="my-service-pic"/>
                             <h3>Videography</h3>
                             <p>
                                 "Bringing your vision to life, frame by frame."
@@ -100,8 +100,8 @@ export default function MainSec(){
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col">
-                            <img src="" alt="" />
+                        <div className="col my-service-div">
+                            <img src="./images/editing.png" alt="" className="my-service-pic"/>
                             <h3>Editing</h3>
                             <p>
                                 "Polishing perfection, pixel by pixel."
@@ -109,8 +109,8 @@ export default function MainSec(){
                             </p>
                             <a href="">Read More</a>
                         </div>
-                        <div className="col">
-                            <img src="" alt="" />
+                        <div className="col my-service-div">
+                            <img src="./images/branding.png" alt="" className="my-service-pic"/>
                             <h3>Branding</h3>
                             <p>
                                 "Building your brand identity, one story at a time."
@@ -118,8 +118,8 @@ export default function MainSec(){
                             </p>
                             <a href="">Read More</a>
                         </div>
-                        <div className="col">
-                            <img src="" alt="" />
+                        <div className="col my-service-div">
+                            <img src="./images/bell.png" alt="" className="my-service-pic"/>
                             <h3>Events</h3>
                             <p>
                                 "Preserving your special moments, forever."
