@@ -7,7 +7,7 @@ export default function MySkillSec(props){
                 <li className="year-sec-item">
                     <img src={props.img} alt="" />
                     <p>{props.year}</p>
-                    <p>{props.type}</p>
+                    <p className="year-sec-item-type">{props.type}</p>
                     <p className="year-sec-item-des">{props.des}</p>
                 </li>
             </ul>

@@ -23,7 +23,7 @@ export default[
     {
         img : "./images/circle.png",
         year : "2024-2025",
-        type : "Travel Photography",
+        type : "Travel",
         des : "kaikashdkf aksdjfhas akshdfkjasd skadhfaksjd asdkfhajksd Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta dolores facere iure! Esse cumque aliquid eius nisi perferendis earum fuga."
     }
 ]

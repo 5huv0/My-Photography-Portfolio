@@ -10,6 +10,7 @@ import MySkillSec from './components/MySkillSec'
 import AchievementSec from './components/AchievementSec'
 import AboutMeSec from './components/AboutMeSec'
 import MyServiceSec from './components/MyServiceSec'
+import Footer from './components/Footer'
 
 function App() {
   const YearSec = YearSecData.map(data => {
@@ -29,7 +30,7 @@ function App() {
         <h2>Experiences & Educations</h2>
         {YearSec}
      </section>
-     
+     <Footer/>
     </>
   )
 }

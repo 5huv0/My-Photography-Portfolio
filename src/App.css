@@ -158,7 +158,7 @@ body{
 }
 
 .about-sec-pic{
-    position: absolute;
+    position:absolute;
     height: 320px;
     width: 250px;
     z-index: 1;
@@ -310,5 +310,20 @@ body{
     text-align: left;
 }
 
+.year-sec-item-type{
+    font-size: large;
+}
+
 
 /* Main section work ends here */
+
+
+/* Footer section work starts here */
+
+.footer-sec{
+    color: #FDE3A7;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Footer section work ends here */
