@@ -11,7 +11,7 @@ export default function Footer(){
                     Here is another section
                 </div>
                 <div>
-                    Another is here
+                    Another is
                 </div>
             </footer>
         </div>
