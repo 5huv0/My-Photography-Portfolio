@@ -8,10 +8,10 @@ export default function Footer(){
                     Here is my footer 
                 </div>
                 <div>
-                    Here is another section
+                    another section
                 </div>
                 <div>
-                    Another is
+                    Another
                 </div>
             </footer>
         </div>
