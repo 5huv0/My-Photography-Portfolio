@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function EventSec(){
+export default function EventSec(props){
 
     return(
     
@@ -11,16 +11,30 @@ export default function EventSec(){
                     <div class="container text-center">
                         <div class="row">
                             <div class="col">
-                                1 of 2
+                                <p className="event-main-head">
+                                    {props.heading}
+                                </p>
+
+                                <p className="event-main-name">
+                                    {props.name}
+                                </p>
+
+                                <p className="event-main-category">
+                                    {props.category}
+                                </p>
+
+                                <p className="event-main-des">
+                                    {props.des}
+                                </p>
                             </div>
                             <div class="col">
-                                2 of 2
+                                <img src={props.img} alt="" className="event-main-img"/>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                {/* <div>
                     <div class="container text-center">
                         <div class="row">
                             <div class="col">
@@ -44,7 +58,7 @@ export default function EventSec(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
