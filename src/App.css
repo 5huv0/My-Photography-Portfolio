@@ -322,11 +322,47 @@ body{
     margin-top: 100px;
 }
 
+
 .event-box{
     margin: 20px;
 }
 
 
+.event-main-head{
+    font-size: 29px;
+    color: #FFF5DD;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.event-main-name{
+    color: #FDE3A7;
+}
+
+.event-main-client{
+    color: #66625a;
+}
+
+.event-main-category{
+    color: #FDE3A7;
+}
+
+.event-main-cat{
+    color: #66625a;
+}
+
+
+.event-main-des{
+    color: #FDE3A7;
+}
+
+
+.event-main-btn{
+    color: #FDE3A7;
+    background-color: #e56b4f;
+    border: none;
+    border-radius: 0px;
+}
 /* Main section work ends here */
 
 

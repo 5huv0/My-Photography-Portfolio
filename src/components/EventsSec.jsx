@@ -15,11 +15,11 @@ export default function EventSec(props){
                             </p>
 
                             <p className="event-main-name">
-                                client : {props.name}
+                                <span className="event-main-client">Client : </span> {props.name}
                             </p>
 
                             <p className="event-main-category">
-                                catergory : {props.category}
+                                <span className="event-main-cat"> Catergory : </span> {props.category}
                             </p>
 
                             <p className="event-main-des">
