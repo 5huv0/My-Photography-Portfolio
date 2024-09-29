@@ -9,7 +9,7 @@ export default function EventSec(props){
             <div className="main-event-sec">
                 <div class="container text-start">
                     <div class="row">
-                        <div class="col event-sec-items">
+                        <div class="col">
                             <p className="event-main-head">
                                 {props.heading}
                             </p>

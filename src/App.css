@@ -51,7 +51,7 @@ body{
 /* Hero section work starts here */
 
 .main-div{
-    background-image: url("./public/images/self-pic.jpg");
+    background-image: url("./images/self-pic.jpg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
@@ -229,6 +229,7 @@ body{
 
 .my-service-div a{
     color: white;
+    width: max-content;
 }
 
 .my-service-div a:hover{
@@ -320,13 +321,8 @@ body{
     flex-direction: column;
     color: #FDE3A7;
     margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
-.event-box{
-    margin: 20px;
-}
-
 
 .event-main-head{
     font-size: 29px;
@@ -337,6 +333,7 @@ body{
 
 .event-main-name{
     color: #FDE3A7;
+    padding: 10px;
 }
 
 .event-main-client{
@@ -345,6 +342,7 @@ body{
 
 .event-main-category{
     color: #FDE3A7;
+    padding: 10px;
 }
 
 .event-main-cat{
@@ -354,6 +352,7 @@ body{
 
 .event-main-des{
     color: #FDE3A7;
+    padding: 10px;
 }
 
 

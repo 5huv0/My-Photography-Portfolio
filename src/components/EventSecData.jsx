@@ -9,7 +9,7 @@ export default[
 
     {
         heading:"Happy wedding",
-        name : "Sakib",
+        name : "Sakib & Abida",
         category : "Event",
         des : "Gain a solid grasp of supervised learning principles, including linear regression, logistic regression, decision trees, and neural networks.",
         img : "./images/"
