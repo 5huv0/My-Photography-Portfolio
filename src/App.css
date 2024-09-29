@@ -315,7 +315,28 @@ body{
 }
 
 
+.main-event-sec{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Main section work ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer section work starts here */
