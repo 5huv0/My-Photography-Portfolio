@@ -5,7 +5,7 @@ export default function Footer(){
         <div>
             <footer className="footer-sec">
                 <div>
-                    Here footer 
+                    grid 1 
                 </div>
                 <div>
                     section
