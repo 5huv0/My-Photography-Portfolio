@@ -11,6 +11,7 @@ import AboutMeSec from './components/AboutMeSec'
 import MyServiceSec from './components/MyServiceSec'
 import Footer from './components/Footer'
 import EventSec from './components/EventsSec'
+import EventSecData from './components/EventSecData'
 
 function App() {
   const YearSec = YearSecData.map(data => {
@@ -18,6 +19,14 @@ function App() {
             {...data}
             />
 })
+
+
+  const Event = EventSecData.map(x => {
+    return <EventSec
+            {...x}
+          />
+  })
+
   return (
     <>
      <Navbar/>
@@ -31,7 +40,7 @@ function App() {
         {YearSec}
      </section>
      <section className='event-sec'>
-        <EventSec/>
+        {Event}
      </section>
      <Footer/>
     </>

@@ -318,7 +318,14 @@ body{
 .main-event-sec{
     display: flex;
     flex-direction: column;
+    color: #FDE3A7;
+    margin-top: 100px;
 }
+
+.event-box{
+    margin: 20px;
+}
+
 
 /* Main section work ends here */
 
