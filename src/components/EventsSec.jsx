@@ -1,36 +1,56 @@
 import React from "react";
 
 
-export default function EventSec(props){
+export default function EventSec(){
 
     return(
-    
         <div>
-            <div className="main-event-sec">
+            <div>
                 <div class="container text-start">
                     <div class="row">
                         <div class="col">
-                            <p className="event-main-head">
-                                {props.heading}
-                            </p>
-
-                            <p className="event-main-name">
-                                <span className="event-main-client">Client : </span> {props.name}
-                            </p>
-
-                            <p className="event-main-category">
-                                <span className="event-main-cat"> Catergory : </span> {props.category}
-                            </p>
-
-                            <p className="event-main-des">
-                                {props.des}
-                            </p>
-                            <button className="event-main-btn">
-                                Read More
-                            </button>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <button></button>
                         </div>
                         <div class="col">
-                            <img src={props.img} alt="" className="event-main-img"/>
+                            <img src="" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="container text-start">
+                    <div class="row">
+                        <div class="col">
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <button></button>
+                        </div>
+                        <div class="col">
+                            <img src="" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="container text-start">
+                    <div class="row">
+                        <div class="col">
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <button></button>
+                        </div>
+                        <div class="col">
+                            <img src="" alt="" />
                         </div>
                     </div>
                 </div>

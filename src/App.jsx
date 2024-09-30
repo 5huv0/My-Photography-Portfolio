@@ -21,11 +21,11 @@ function App() {
 })
 
 
-  const Event = EventSecData.map(x => {
-    return <EventSec
-            {...x}
-          />
-  })
+  // const Event = EventSecData.map(x => {
+  //   return <EventSec
+  //           {...x}
+  //         />
+  // })
 
   return (
     <>
@@ -40,7 +40,7 @@ function App() {
         {YearSec}
      </section>
      <section className='event-sec'>
-        {Event}
+        <EventSec/>
      </section>
      <Footer/>
     </>
