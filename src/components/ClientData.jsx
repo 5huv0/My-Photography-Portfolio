@@ -1,8 +1,8 @@
 export default[
     {
-        img : "",
-        name : "",
-        job : "",
+        img : "./images/shoumick.jpg",
+        name : "Sadman",
+        job : "Engineer",
         fb : "",
         twitter : "",
         insta : "",
@@ -10,8 +10,9 @@ export default[
     },
 
     {
-        img : "",
-        name : "",
+        img : "./images/saju.jpg",
+        name : "Saju",
+        job : "Engineer",
         fb : "",
         twitter : "",
         insta : "",
@@ -19,8 +20,9 @@ export default[
     },
 
     {
-        img : "",
-        name : "",
+        img : "./images/shihab.jpg",
+        name : "Shihab",
+        job : "Engineer",
         fb : "",
         twitter : "",
         insta : "",
