@@ -324,6 +324,38 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.event-portfolio{
+    color: #9C4A38;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.event-heading{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.event-title-part{
+    display: flex;
+    flex-direction:row;
+}
+
+.event-title-btn{
+    padding-top: 40px;
+    padding-left: 190px;
+}
+
+.event-title-button{
+    color: #FFF5DD;
+    background-color:#9C4A38;
+    border: none;
+    border-radius: 0px;
+}
+
+.event-title-button:hover{
+    border: none;
+}
 
 .event-main-head{
     font-size: 29px;

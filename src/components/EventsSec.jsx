@@ -7,6 +7,18 @@ export default function EventSec(){
         <div>
             <div className="main-event-sec">
                 <div className="container text-start">
+                    <div className="event-title-part">
+                        <div>
+                            <p className="event-portfolio">My portfolio</p>
+                            <p className="event-heading">Be Creative and Think Outside of the Box</p>
+                        </div>
+                        <div className="event-title-btn">
+                            <button className="event-title-button">
+                                All projects
+                            </button>
+                        </div>
+                    </div>
+                    
                     <div className="row">
                         <div className="col">
                             <p className="event-main-head">
