@@ -2,6 +2,7 @@ export default[
     {
         img : "",
         name : "",
+        job : "",
         fb : "",
         twitter : "",
         insta : "",

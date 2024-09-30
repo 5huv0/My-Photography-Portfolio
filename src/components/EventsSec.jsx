@@ -5,7 +5,7 @@ export default function EventSec(){
 
     return(
         <div>
-            <div className="main-event-sec">
+            <div className="container main-event-sec">
                 <div className="container text-start">
                     <div className="event-title-part">
                         <div>
