@@ -51,7 +51,7 @@ body{
 /* Hero section work starts here */
 
 .main-div{
-    background-image: url("./public/images/self-pic.jpg");
+    background-image: url("./images/self-pic.jpg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: cover;
