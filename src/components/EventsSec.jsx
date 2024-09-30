@@ -15,17 +15,17 @@ export default function EventSec(){
                             </p>
                             
                             <p className="event-main-name">
-                                <span>Client : </span>Sadman Shoumick
+                                <span className="event-main-client">Client : </span>Sadman Shoumick
                             </p>
                             
                             <p className="event-main-category">
-                                <span>Category : </span>
+                                <span className="event-main-cat">Category : </span> Portrait
                             </p>
                             <p className="event-main-des">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum commodi in placeat aperiam repellendus mollitia autem officiis sapiente excepturi odit! Nam voluptate deleniti aliquam assumenda voluptatem, numquam a excepturi incidunt.
                             </p>
-                            <button>
-
+                            <button className="event-main-btn">
+                                Read more
                             </button>
                         </div>
                         <div className="col">
@@ -48,17 +48,17 @@ export default function EventSec(){
                             </p>
                             
                             <p className="event-main-name">
-                                <span>Client : </span>Shihab Sarar
+                                <span className="event-main-client">Client : </span>Shihab Sarar
                             </p>
                             
                             <p className="event-main-category">
-                                <span>Category : </span>
+                                <span className="event-main-cat">Category : </span> Portrait
                             </p>
                             <p className="event-main-des">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, placeat voluptate? Atque exercitationem aliquid ipsum perferendis est architecto impedit porro rerum mollitia numquam. Dicta neque dolor eos fugit asperiores nam?
                             </p>
-                            <button>
-
+                            <button className="event-main-btn">
+                                Read more
                             </button>
                         </div>
                     </div>
@@ -74,17 +74,17 @@ export default function EventSec(){
                                 <img src="./images/vertical-line.png" alt="" />
                             </p>
                             <p className="event-main-name">
-                               <span>Client : </span> Raisul Karim
+                               <span className="event-main-client">Client : </span> Raisul Karim
                             </p>
                             
                             <p className="event-main-category">
-                                <span>Category : </span>
+                                <span className="event-main-cat">Category : </span> Portrait
                             </p>
                             <p className="event-main-des">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odio culpa exercitationem laborum veritatis rem accusamus ullam, voluptates, eius maiores harum illum incidunt praesentium odit, dolorum nihil. Autem, unde maxime.
                             </p>
-                            <button>
-
+                            <button className="event-main-btn">
+                                Read more
                             </button>
                         </div>
                         <div className="col">

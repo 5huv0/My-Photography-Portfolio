@@ -331,6 +331,9 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.event-main-head img{
+    padding-left: 20px;
+}
 
 .event-main-name{
     color: #FDE3A7;
