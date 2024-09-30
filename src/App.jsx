@@ -20,13 +20,6 @@ function App() {
             />
 })
 
-
-  // const Event = EventSecData.map(x => {
-  //   return <EventSec
-  //           {...x}
-  //         />
-  // })
-
   return (
     <>
      <Navbar/>
