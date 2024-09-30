@@ -324,6 +324,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .event-main-head{
     font-size: 29px;
     color: #FFF5DD;
@@ -361,6 +362,12 @@ body{
     background-color: #e56b4f;
     border: none;
     border-radius: 0px;
+}
+
+
+.event-main-img{
+    width: 320px;
+    height: 350px;
 }
 /* Main section work ends here */
 
