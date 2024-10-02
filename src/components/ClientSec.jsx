@@ -11,11 +11,9 @@ export default function Client(props){
                     <p className="client-sec-job">
                         {props.job}
                     </p>
-                    <p className="client-sec-des">
-                        {props.des}
-                    </p>
+                    <img src={props.underline} alt="" className="client-sec-ul"/>
                 </div>
-                <div className="card-body">
+                <div className="client-linkings">
                     <a href="#" className="card-link">
                         <img src={props.fb} alt="" className="client-linkings-img"/>
                     </a>
