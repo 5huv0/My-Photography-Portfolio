@@ -46,17 +46,8 @@ const Client = ClientData.map(x => {
         <EventSec/>
      </section>
 
-     <section >
-        <p>
-          My Partners
-        </p>
-        <p>
-          Meet my trusted partners
-        </p>
-        <button>
-          View All
-        </button>
-        {Client}
+     <section className="client">
+      {Client}
      </section>
      
     </>

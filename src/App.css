@@ -405,13 +405,26 @@ body{
     height: 350px;
 }
 
+.client{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .client-sec{
     color: #FFF5DD;
 }
 
 .card{
-    width: 18rem;
+    width: max-content;
+    border: none;
+    border-radius: 0px;
+    margin: 70px;
+}
+
+.card-body{
+    background-color: black;
 }
 
 .client-sec-img{
@@ -432,7 +445,7 @@ body{
 
 .client-linkings-img{
     height: 20px;
-    width: 18px;
+    width: 17px;
     margin: 5px;
 }
 
