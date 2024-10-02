@@ -28,34 +28,3 @@ export default function Client(props){
         </div>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <div className="client-card">
-                <img src={props.img} alt="" className="client-sec-img"/>
-                <p className="client-sec-name">
-                    {props.name}
-                </p>
-                <p className="client-sec-job">
-                    {props.job}
-                </p>
-                <a href="">
-                    <img src={props.fb} alt="" className="client-linkings-img"/>
-                </a>
-                <a href="">
-                    <img src={props.insta} alt="" className="client-linkings-img"/>
-                </a>
-                <a href="">
-                    <img src={props.lnkdin} alt="" className="client-linkings-img"/>
-                </a>
-            </div> */}
