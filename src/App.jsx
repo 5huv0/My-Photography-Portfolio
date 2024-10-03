@@ -13,6 +13,7 @@ import EventSec from './components/EventsSec'
 import EventSecData from './components/EventSecData'
 import ClientSec from './components/ClientSec'
 import ClientData from './components/ClientData'
+import Footer from './components/Footer'
 
 function App() {
   const YearSec = YearSecData.map(data => {
@@ -65,7 +66,7 @@ const Client = ClientData.map(x => {
      <section className="client">
       {Client}
      </section>
-     
+     <Footer/>
     </>
   )
 }

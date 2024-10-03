@@ -489,5 +489,70 @@ body{
 
 
 /* Footer section work starts here */
+.footer-sec{
+    background-color: #3f3a3a;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.footer-contacts{
+    margin-right: auto;
+    padding-left: 100px;
+}
+
+.footer-contacts p{
+    color: #9C4A38;
+    font-size: 14px;
+}
+
+.footer-contacts h2{
+    color: #FFF5DD;
+    font-size: 40px;
+}
+
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+    padding: 15px;
+    text-align: start;
+    color: #FDE3A7;
+  }
+  
+  .input-row:first-child {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    flex: 1; 
+    padding: 8px;
+    background-color: #3f3a3a;
+    width: 360px;
+    margin-right: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #FDE3A7;
+    box-sizing: border-box;
+  }
+
+  input::placeholder {
+    color: #FFF5DD;
+  }
+
+
+#name {
+    padding-bottom: 100px;
+}
+
+#email, #f-name, #l-name{
+    padding-bottom: 20px;
+}
 
 /* Footer section work ends here */
