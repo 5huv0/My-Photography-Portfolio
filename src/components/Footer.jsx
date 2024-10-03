@@ -8,6 +8,26 @@ export default function Footer(){
                 <div className="footer-contacts">
                     <p>Contacts</p>
                     <h2>Get In Touch</h2>
+                    <div className="row">
+                        <div className="col">
+                            <img src="./images/footer-add.png" alt="" />
+                            <p>Address</p>
+                            <p>Sylhet Engineering College, Sylhet</p>
+                        </div>
+                        <div className="col">
+                            <img src="./images/footer-email.png" alt="" />
+                            <p>Email</p>
+                            <p>shuvo88745@gmail.com</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <img src="./images/footer-phone.png" alt="" />
+                            <p>Phone</p>
+                            <p>+8802357623</p>
+                        </div>
+                        
+                    </div>
                 </div>
 
                 <div className="footer-form">
@@ -21,6 +41,11 @@ export default function Footer(){
                         </div>
                         <div className="input-row">
                             <input type="text" placeholder="MESSAGES" id="name" />
+                        </div>
+                        <div className="input-row">
+                            <button className="input-button">
+                                Send Message
+                            </button>
                         </div>
                     </div>
 

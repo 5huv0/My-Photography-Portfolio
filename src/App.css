@@ -497,7 +497,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 550px;
     width: 100%;
 }
 
@@ -553,6 +553,13 @@ body{
 
 #email, #f-name, #l-name{
     padding-bottom: 20px;
+}
+
+.input-button{
+    color: #f8edd5;
+    background-color: #9C4A38;
+    border: none;
+    border-radius: 0px;
 }
 
 /* Footer section work ends here */
