@@ -50,57 +50,59 @@ export default function Footer(){
                     </div>
                 </div>
             </footer>
-            <div className="footer-last-sec">
-                    <div>
-                        <img src="./images/logo-nav.png" alt="" />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sunt molestias earum cupiditate quibusdam, aperiam laboriosam voluptatum impedit ullam sapiente deleniti non. Dolorem, eaque temporibus autem perferendis ipsam sapiente quo?
-                        </p>
-                    </div>
-                    <div> 
-                        <h3>
-                            Quicklinks
-                        </h3>
-                        <a href="">
-                            Home
-                        </a>
-                        <a href="">
-                            About
-                        </a>
-                        <a href="">
-                            FAQs
-                        </a>
-                        <a href="">
-                            Blog
-                        </a>
-                        <a href="">
-                            Contact
-                        </a>
-                    </div>
 
-                    <div>
-                        <h3>
-                            Get In Touch
-                        </h3>
-                        <p>
-                            A: Sylhet
-                        </p>
-                        <p>
-                            P: +8802357623
-                        </p>
-                        <p>
-                            E: shuvo88745@gmail.com
-                        </p>
-                        <a href="">
-                            <img src="./images/facebook-logo.png" alt="" />
-                        </a>
-                        <a href="">
-                            <img src="./images/instagram-logo.png" alt="" />
-                        </a>
-                        <a href="">
-                            <img src="./images/linkedin-logo.png" alt="" />
-                        </a>
-                    </div>
+            <div className="row footer-last-sec">
+                        <div className="col">
+                            <img src="./images/logo-nav.png" alt="" />
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sunt molestias earum cupiditate quibusdam, aperiam laboriosam voluptatum impedit ullam sapiente deleniti non. Dolorem, eaque temporibus autem perferendis ipsam sapiente quo?
+                            </p>
+                        </div>
+
+                        <div className="col">
+                            <h3>
+                                Quicklinks
+                            </h3>
+                            <a href="">
+                                Home
+                            </a>
+                            <a href="">
+                                About
+                            </a>
+                            <a href="">
+                                FAQs
+                            </a>
+                            <a href="">
+                                Blog
+                            </a>
+                            <a href="">
+                                Contact
+                            </a>
+                        </div>
+
+                        <div className="col">
+                            <h3>
+                                Get In Touch
+                            </h3>
+                            <p>
+                                A: Sylhet
+                            </p>
+                            <p>
+                                P: +8802357623
+                            </p>
+                            <p>
+                                E: shuvo88745@gmail.com
+                            </p>
+                            <a href="">
+                                <img src="./images/facebook-logo.png" alt="" />
+                            </a>
+                            <a href="">
+                                <img src="./images/instagram-logo.png" alt="" />
+                            </a>
+                            <a href="">
+                                <img src="./images/linkedin-logo.png" alt="" />
+                            </a>
+                        </div>
                 </div>
         </div>
     )
