@@ -52,14 +52,14 @@ export default function Footer(){
             </footer>
 
             <div className="row footer-last-sec">
-                        <div className="col">
-                            <img src="./images/logo-nav.png" alt="" />
+                        <div className="col footer-logo">
+                            <img src="./images/logo-nav.png" alt="" className="footer-last-logo"/>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sunt molestias earum cupiditate quibusdam, aperiam laboriosam voluptatum impedit ullam sapiente deleniti non. Dolorem, eaque temporibus autem perferendis ipsam sapiente quo?
                             </p>
                         </div>
 
-                        <div className="col">
+                        <div className="col footer-quick">
                             <h3>
                                 Quicklinks
                             </h3>
@@ -80,7 +80,7 @@ export default function Footer(){
                             </a>
                         </div>
 
-                        <div className="col">
+                        <div className="col footer-intouch">
                             <h3>
                                 Get In Touch
                             </h3>
@@ -94,13 +94,13 @@ export default function Footer(){
                                 E: shuvo88745@gmail.com
                             </p>
                             <a href="">
-                                <img src="./images/facebook-logo.png" alt="" />
+                                <img src="./images/facebook-logo.png" alt="" className="footer-last-link"/>
                             </a>
                             <a href="">
-                                <img src="./images/instagram-logo.png" alt="" />
+                                <img src="./images/instagram-logo.png" alt="" className="footer-last-link"/>
                             </a>
                             <a href="">
-                                <img src="./images/linkedin-logo.png" alt="" />
+                                <img src="./images/linkedin-logo.png" alt="" className="footer-last-link"/>
                             </a>
                         </div>
                 </div>
