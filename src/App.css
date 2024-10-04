@@ -489,6 +489,7 @@ body{
 
 
 /* Footer section work starts here */
+
 .footer-sec{
     background-color: #3f3a3a;
     display: flex;
@@ -565,6 +566,23 @@ body{
 .footer-img{
     height: 30px;
     width: 25px;
+    margin: 10px;
+}
+
+.footer-linkings{
+    padding: 20px;
+}
+
+.footer-linkings p{
+    color: #FFF5DD;
+}
+
+.footer-linkings h3{
+    color: #FDE3A7;
+}
+
+.footer-last-sec{
+    color: #FFF5DD;
 }
 
 /* Footer section work ends here */
