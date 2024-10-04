@@ -614,4 +614,10 @@ body{
    color: #9C4A38;
 }
 
+.footer-last-link{
+    height: 18px;
+    width: max-content;
+    margin: 10px;
+}
+
 /* Footer section work ends here */

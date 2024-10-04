@@ -102,7 +102,24 @@ export default function Footer(){
                             <a href="">
                                 <img src="./images/linkedin-logo.png" alt="" className="footer-last-link"/>
                             </a>
+                            <a href="">
+                                <img src="./images/twitter-logo.png" alt="" className="footer-last-link"/>
+                            </a>
                         </div>
+                </div>
+                <img src="./images/footer-line.png" alt=""/>
+                <div>
+                    <div>
+                        Copyright © 2024 5huv0
+                    </div>
+                    <div>
+                        <a href="">
+                            Privacy
+                        </a>
+                        <a href="">
+                            Policy
+                        </a>
+                    </div>
                 </div>
         </div>
     )
