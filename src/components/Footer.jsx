@@ -108,11 +108,12 @@ export default function Footer(){
                         </div>
                 </div>
                 <img src="./images/footer-line.png" alt=""/>
-                <div>
-                    <div>
+
+                <div className="footer">
+                    <div className="copyright">
                         Copyright © 2024 5huv0
                     </div>
-                    <div>
+                    <div className="pnp">
                         <a href="">
                             Privacy
                         </a>
